@@ -12,7 +12,6 @@ Welcome to my personal portfolio website! This site is a showcase of my skills, 
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
 - [Contact](#contact)
 
 ---
@@ -83,13 +82,6 @@ If you'd like to run this project locally:
 
 ---
 
-## 📸 Screenshots  
-
-### Home Page 
-![Home Page](homepage.ss.png)
-
-### Projects Section 
-![Projects Section](D:\PROJECTS\Portfolio\projectsec.ss.png)
 
 ---
 

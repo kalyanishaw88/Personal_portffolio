@@ -88,7 +88,7 @@ If you'd like to run this project locally:
 ## 📞 Contact  
 Feel free to reach out for collaboration, feedback, or queries:  
 - Emai: [kalyanishaw88@gmail.com]  
-- LinkedIn: [ LinkedIn Profile]((https://www.linkedin.com/in/kalyani-shaw-51b840263/))  
+- LinkedIn: [ LinkedIn Profile][((https://www.linkedin.com/in/kalyani-shaw-51b840263/))](https://www.linkedin.com/in/kalyani-shaw-51b840263)  
 - GitHub: [GitHub Profile](https://github.com/kalyanishaw88)  
 
 ---

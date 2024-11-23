@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyani - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Karla:ital,wght@0,200..800;1,200..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kalyani's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- First Section -->
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kalyani</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Resume_Kalyani Shaw.pdf" download>
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kalyani-shaw-51b840263/" target="_blank">
+                        <button class="btn">Visit LinkedIn</button>
+                    </a>
+                    <a href="https://github.com/dashboard" target="_blank">
+                        <button class="btn">Visit GitHub</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Learning-amico.png" alt="Learning illustration">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about" class="aboutSection">
+            <h1>About Me</h1>
+            <div class="about-container">
+                <!-- Image with Designer Frame -->
+                <div class="photo-container">
+                    <img src="about.pic.jpeg" alt="Kalyani's Photo" class="about-photo">
+                </div>
+                
+                <!-- Text in Two Columns -->
+                <div class="about-content">
+                    <div class="column-left">
+                        <h2>Who I Am</h2>
+                        <p>
+                            I'm Kalyani, a passionate web developer with experience in front-end and back-end technologies. I love coding and creating interactive and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="column-right">
+                        <h2>My Skills</h2>
+                        <p>
+                            My expertise includes HTML, CSS, JavaScript, React, Node.js, and MongoDB. I'm also familiar with MERN stack development and responsive web design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section class="secondSection" id="projects">
+            <span class="text-gray">What I have created so far</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <!-- Project 1 -->
+                <div class="vertical">
+                    <img class="image-top" src="card.deg.png" alt="Card Design">
+                    <div class="vertical-title">Card Design</div>
+                    <div class="vertical-desc">
+                        A Card Design Portal using HTML and CSS, showcasing beautifully styled cards with responsive layouts.
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="vertical">
+                    <img class="image-top" src="weather.deg.png" alt="Weather Application">
+                    <div class="vertical-title">Weather Application</div>
+                    <div class="vertical-desc">
+                        A responsive weather application using the OpenWeather API to provide real-time weather updates.
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="vertical">
+                    <img class="image-top" src="curd.deg.png" alt="MERN CRUD Portal">
+                    <div class="vertical-title">MERN CRUD Portal</div>
+                    <div class="vertical-desc">
+                        A MERN stack project with secure authentication, admin panel, and CRUD functionality.
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="vertical">
+                    <img class="image-top" src="patho.deg.png" alt="Pathology Lab Website">
+                    <div class="vertical-title">Pathology Lab Website</div>
+                    <div class="vertical-desc">
+                        A responsive website for pathology labs with online booking and secure login features.
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="vertical">
+                    <img class="image-top" src="port.deg.png" alt="Portfolio">
+                    <div class="vertical-title">Personal Portfolio Website</div>
+                    <div class="vertical-desc">
+                        A personal portfolio showcasing my web development skills and projects.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contactSection">
+            <h1>Contact Me</h1>
+            <div class="contact-container">
+                <!-- Row 1: Image and Form -->
+                <div class="contact-row">
+                    <div class="contact-image">
+                        <img src="contactme.png" alt="Kalyani's Picture">
+                    </div>
+                    <div class="form-container">
+                        <form>
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+        
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+        
+                <!-- Row 2: Email Address Card -->
+                <div class="contact-card">
+                    <h3>Email Me At</h3>
+                    <p><a href="mailto:kalyani@example.com">kalyanishaw88@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kalyani's Developer Portfolio</h3>
+            </div>
+            <div class="footer-sections">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.kalyanisportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>

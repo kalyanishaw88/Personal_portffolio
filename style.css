@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(0 ,0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(3, 3, 80);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.05rem;
+}
+
+/*......FIRST SECTION...*/
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+
+}
+.firstSection > div{
+    width: 30% ;
+
+}
+/*......FIRST> left> SECTION...*/
+
+.left{
+    font-size: 1.5rem;
+}
+
+.leftSection{
+   font-size: 3rem;
+   padding-left: 300px;
+}
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.leftSection .btn:hover {
+    background: #fff; /* Change background on hover */
+    color: #1e2167; /* Change text color */
+    border: 2px solid #1e2167; /* Change border color */
+    transform: scale(1.1); /* Slightly increase size */
+}
+.leftSection .buttons{
+    padding:50px 0 ;
+}
+
+
+.leftSection::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20%;
+    height: 90%;
+    background-image: url('mypic.png'); /* Add the path to your PNG image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust opacity */
+    z-index: -1; /* Place the image behind the content */
+    padding-left: 180px;
+}
+
+/*......FIRST> right> SECTION...*/
+
+.rightSection img{
+    width: 90%;
+    padding-right: 100px;
+}
+
+.purple{
+   color: rgb(153, 65, 234);
+}
+.text-gray{
+    color: gray;
+    font-size: 18px;
+}
+#element{
+    color: rgb(153, 65, 234);
+}
+
+
+main hr{
+    border: 0;
+    background: #665ff5;
+    height: 1.2px;
+    margin: 60px 65px;
+}
+
+/*......SECOND SECTION...*/
+
+.secondSection{
+    font-size: 1.9rem;
+    max-width: 88vw;
+    margin: auto;
+    height: 65vh;
+    color: rgb(153, 65, 234);
+}
+.secondSection .box{
+    background: rgb(153, 65, 234);
+    width: 80vw;
+    height: 2px;
+    margin: 130px 0;
+    display: flex;
+    
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(153, 65, 234);
+    margin: 0 150px;
+}
+.image-top{
+    width: 200px;
+    position: relative;
+    top : -110px;
+    left: -100px
+}
+/* Ensure all images are the same size as the first one */
+.secondSection .vertical .image-top {
+    width: 200px; /* Set the width of all images */
+    height: 100px; /* Maintain the aspect ratio */
+    display: block; /* Ensure they are treated as block-level elements */
+    margin: 0 auto; /* Center images if needed */
+}
+
+.vertical-title{
+    position: relative;
+    top: 10px;
+    width: 150px;
+    font-size: 20px;
+    
+
+    
+}
+.vertical-desc{
+    position: relative;
+    top: 20px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+
+}
+
+/*................................FOOTER..................*/
+footer{
+    
+    background-color: rgb(3, 3, 80);
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+ list-style: none;
+}
+.footer >div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+
+}
+
+/*................................NAV -> ABOUT..................*/
+
+/* About Section */
+.aboutSection {
+    padding: 60px 120px;
+    text-align: center;
+    background-color: rgb(0, 0, 33);
+}
+
+.aboutSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(153, 65, 234);
+}
+
+/* Container for Photo and Text */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* Photo with Designer Frame */
+.photo-container {
+    width: 250px;
+    height: 250px;
+    border: 8px solid #7a7a7a; /* Gray border for the designer frame */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* About Content (Two Columns) */
+.about-content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column-left, .column-right {
+    width: 45%;
+    text-align: left;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.column-left h2, .column-right h2 {
+    color: rgb(153, 65, 234);
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.column-left p, .column-right p {
+    line-height: 1.8;
+}
+
+/* Ensure mobile responsiveness */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .column-left, .column-right {
+        width: 100%;
+    }
+}
+
+
+/*................................NAV -> CONTACT..................*/
+
+/* Contact Section */
+.contactSection {
+    padding: 60px 120px;
+    text-align: center;
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+.contactSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(153, 65, 234);
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+/* Row 1: Image and Form */
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Image Styling */
+.contact-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Container */
+.form-container {
+    flex: 1;
+    min-width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: rgb(153, 65, 234);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(20, 20, 50);
+    color: white;
+}
+
+form button {
+    background-color: rgb(153, 65, 234);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+form button:hover {
+    background-color: white;
+    color: rgb(153, 65, 234);
+}
+
+/* Row 2: Email Address Card */
+.contact-card {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(20, 20, 50);
+    border: 2px solid rgb(153, 65, 234);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+    /* Move the card towards the right */
+    margin-left: auto;
+    margin-right: 370px; /* Adjust this value to fine-tune */
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    color: rgb(153, 65, 234);
+}
+
+.contact-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.contact-card a {
+    color: rgb(153, 65, 234);
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-image, .form-container {
+        width: 100%;
+    }
+}

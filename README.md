@@ -85,11 +85,11 @@ If you'd like to run this project locally:
 
 ## 📸 Screenshots  
 
-### **Home Page**  
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
+### Home Page 
+![Home Page](homepage.ss.png)
 
 ### Projects Section 
-![Projects Section](https://via.placeholder.com/800x400?text=Projects+Section)
+![Projects Section](D:\PROJECTS\Portfolio\projectsec.ss.png)
 
 ---
 
